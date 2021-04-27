@@ -14,7 +14,7 @@
  * @param address   The I2C address of the BV4604 device
  * */
 BV4604::BV4604(uint8_t address) {
-    this->address = address;
+    this->_address = address;
     Wire.begin();
 }
 
@@ -25,7 +25,7 @@ BV4604::BV4604(uint8_t address) {
  *  @param length   The amount of values to be written
  * */
 void BV4604::I2CWrite(uint8_t *values, uint8_t length) {
-    Wire.beginTransmission(this->address);
+    Wire.beginTransmission(this->_address);
     for (uint8_t i = 0; i < length; ++i) {
         Wire.write(values[i]);
     }
@@ -38,7 +38,7 @@ void BV4604::I2CWrite(uint8_t *values, uint8_t length) {
  * @returns The value read from the bus
  * */
 uint8_t BV4604::I2CRead() {
-    Wire.requestFrom(this->address, (uint8_t) 1);
+    Wire.requestFrom(this->_address, (uint8_t) 1);
     return Wire.read();
 }
 

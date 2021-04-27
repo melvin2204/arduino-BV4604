@@ -27,7 +27,7 @@ public:
     uint8_t getDeviceID();
 
 private:
-    uint8_t address;
+    uint8_t _address;
     void I2CWrite(uint8_t *values, uint8_t length);
     uint8_t I2CRead();
     void splitWord(uint8_t *hb, uint8_t *lb, uint16_t value);
