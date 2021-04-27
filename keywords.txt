@@ -6,7 +6,7 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-BV4604	KEYWORD2
+BV4604	KEYWORD1
 BV4604_output_t	KEYWORD1
 BV4604_direction_t	KEYWORD1
 
