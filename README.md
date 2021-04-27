@@ -24,5 +24,16 @@ You may need to create this folder if this is your first time installing a libra
 
 Read more about installing libraries in this tutorial by Adafruit: https://learn.adafruit.com/arduino-tips-tricks-and-techniques/arduino-libraries
 
+# Usage
+To use this library, first complete the installation steps and restart the Arduino IDE.
+Then connect the BV4604 to your Arduino as specified below:
+* +L to 3.3/5V
+* GND to Ground on Arduino and external power source for motors.
+* SDA to SDA on Arduino
+* SCL to SCL on Arduino
+* +M to a power source for your motors.
+
+After everything is connected, choose one of the examples to run from the Arduino IDE and press upload.
+
 # Datasheet
 https://www.byvac.com/downloads/datasheets/BV4603_4%20DataSheet.pdf
