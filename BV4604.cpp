@@ -1,3 +1,10 @@
+/*
+ * BV4604.cpp - A library for controlling the BV4604 H-bridge in DC motor mode with I2C.
+ * There is no support for serial or stepper motor control.
+ *
+ * Created by Melvin Duineveld, 27 april, 2021.
+ * */
+
 #include "BV4604.h"
 
 
