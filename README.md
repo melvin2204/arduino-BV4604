@@ -1,6 +1,13 @@
 # Arduino-BV4604
 This is an Arduino library that interfaces with the BV4604 motor driver board by ByVac.
 
+# Important
+By default this board is configured to be used with stepper motors.
+This library does only support DC motors. 
+To use the full potential of this library,
+it is strongly advised to change the mode of operation of this board. 
+To correctly configure this board, run the `changeToMode0` example sketch from the Arduino IDE before using this library.
+
 # Compatibility
 This library should work on any Arduino board that supports the Wire I2C library. 
 However, it has only been tested on the ATmega328 (Nano/Uno).
