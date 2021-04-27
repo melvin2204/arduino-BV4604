@@ -1,0 +1,33 @@
+#######################################
+# Syntax Coloring Map For Arduino-BV4604
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+BV4604	KEYWORD2
+BV4604_output_t	KEYWORD1
+BV4604_direction_t	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+eepromRead	KEYWORD2
+eepromWrite	KEYWORD2
+reset	KEYWORD2
+stop	KEYWORD2
+test	KEYWORD2
+controlOutputs	KEYWORD2
+controlOutput	KEYWORD2
+setSoftStartValue	KEYWORD2
+getDeviceID	KEYWORD2
+
+######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
