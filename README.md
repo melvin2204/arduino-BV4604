@@ -16,3 +16,6 @@ This folder is located in the Arduino install location (usally in Program files 
 You may need to create this folder if this is your first time installing a library.
 
 Read more about installing libraries in this tutorial by Adafruit: https://learn.adafruit.com/arduino-tips-tricks-and-techniques/arduino-libraries
+
+# Datasheet
+https://www.byvac.com/downloads/datasheets/BV4603_4%20DataSheet.pdf
