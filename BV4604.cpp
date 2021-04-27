@@ -1,5 +1,4 @@
 #include "BV4604.h"
-#include <Wire.h>
 
 
 /*!

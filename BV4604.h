@@ -1,7 +1,7 @@
 #ifndef _ARDUINO_BV4604_H_
 #define _ARDUINO_BV4604_H_
 
-#include <Arduino.h>
+#include <Wire.h>
 #include "BV4604_registers.h"
 
 typedef enum {FORWARDS=1, STOP=0, BACKWARDS=2} BV4604_direction_t;
