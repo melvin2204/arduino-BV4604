@@ -166,3 +166,8 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,clion+all,cmake,linux,git
+
+
+CMakeLists.txt
+BV4604_test.cpp
+cmake/
